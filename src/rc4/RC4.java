@@ -17,7 +17,7 @@ public class RC4 {
         int anahtarUzunlugu = anahtar.length();
 
         for (int i = 0; i < baslangicDizisiUzunlugu; i++) {
-
+            
             // Baslangıç dizisi : 0 1 2 3 4 5 6 7 .... 255 şeklinde indislerine elemanlar yerleştirildi.
             // Anahtar diziside girilen anahtara göre indislerine elemanlar yerleştirildi. Örneğin KEY olsun; K E Y K E Y K E Y ... K şeklinde
             baslangicDizisi[i] = i;
